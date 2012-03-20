@@ -118,6 +118,7 @@ Then /^(?:|I )should see \/([^\/]*)\/$/ do |regexp|
   else
     assert page.has_xpath?('//*', :text => regexp)
   end
+  
 end
 
 Then /^(?:|I )should not see "([^"]*)"$/ do |text|
